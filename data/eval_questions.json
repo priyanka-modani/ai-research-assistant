@@ -1,0 +1,123 @@
+[
+  {
+    "id": "direct_01",
+    "question": "What is the primary business objective of the ConnectTel study?",
+    "category": "direct_fact",
+    "expected_document_ids": ["client_brief_v1"],
+    "expected_answer_facts": ["identify churn drivers", "at-risk segments", "customer-experience improvements"],
+    "should_refuse": false
+  },
+  {
+    "id": "direct_02",
+    "question": "Which markets are in the approved baseline scope?",
+    "category": "direct_fact",
+    "expected_document_ids": ["client_brief_v1"],
+    "expected_answer_facts": ["Germany", "France", "United Kingdom"],
+    "should_refuse": false
+  },
+  {
+    "id": "direct_03",
+    "question": "How many quantitative completes and qualitative interviews are in the baseline plan?",
+    "category": "direct_fact",
+    "expected_document_ids": ["proposal_v1"],
+    "expected_answer_facts": ["1,500", "15"],
+    "should_refuse": false
+  },
+  {
+    "id": "direct_04",
+    "question": "Who is authorized to approve questionnaire and material scope decisions?",
+    "category": "direct_fact",
+    "expected_document_ids": ["kickoff_notes_v1"],
+    "expected_answer_facts": ["Maya Chen"],
+    "should_refuse": false
+  },
+  {
+    "id": "multi_01",
+    "question": "Is Spain currently approved, and which project artifacts are not ready for Spain?",
+    "category": "multi_document",
+    "expected_document_ids": ["client_email_002", "questionnaire_v2", "sample_plan_v1"],
+    "expected_answer_facts": ["request only", "not approved", "questionnaire", "sample plan"],
+    "should_refuse": false
+  },
+  {
+    "id": "multi_02",
+    "question": "Can the documented task sequence meet the October 20 final presentation date?",
+    "category": "multi_document",
+    "expected_document_ids": ["timeline_v1", "proposal_v1"],
+    "expected_answer_facts": ["no", "fieldwork ends October 20", "analysis and reporting follow"],
+    "should_refuse": false
+  },
+  {
+    "id": "multi_03",
+    "question": "What must happen before survey programming can begin?",
+    "category": "multi_document",
+    "expected_document_ids": ["proposal_v1", "timeline_v1"],
+    "expected_answer_facts": ["questionnaire approval", "Maya Chen", "October 5"],
+    "should_refuse": false
+  },
+  {
+    "id": "history_01",
+    "question": "What did the previous churn study learn about billing transparency?",
+    "category": "historical_reuse",
+    "expected_document_ids": ["historical_churn_2025"],
+    "expected_answer_facts": ["historical", "billing transparency", "churn intent"],
+    "should_refuse": false
+  },
+  {
+    "id": "history_02",
+    "question": "Which historical billing questions could be considered for reuse in the current questionnaire?",
+    "category": "historical_reuse",
+    "expected_document_ids": ["historical_questionnaire_2025", "questionnaire_v2"],
+    "expected_answer_facts": ["bill clarity", "charge predictability", "unexpected charges", "not currently approved"],
+    "should_refuse": false
+  },
+  {
+    "id": "scope_01",
+    "question": "What scope conflict is created by the Spain request?",
+    "category": "contradiction_scope",
+    "expected_document_ids": ["client_email_002", "questionnaire_v2", "sample_plan_v1"],
+    "expected_answer_facts": ["unapproved request", "no routing", "no quota", "timing impact"],
+    "should_refuse": false
+  },
+  {
+    "id": "scope_02",
+    "question": "Does the current questionnaire cover the historical billing-transparency learning?",
+    "category": "contradiction_scope",
+    "expected_document_ids": ["questionnaire_v2", "historical_churn_2025"],
+    "expected_answer_facts": ["no direct measure", "historical evidence", "billing clarity"],
+    "should_refuse": false
+  },
+  {
+    "id": "ambiguous_01",
+    "question": "What is the project budget?",
+    "category": "ambiguous",
+    "expected_document_ids": ["client_brief_v1"],
+    "expected_answer_facts": ["not identified", "needs confirmation"],
+    "should_refuse": false
+  },
+  {
+    "id": "ambiguous_02",
+    "question": "What segmentation method will the team use?",
+    "category": "ambiguous",
+    "expected_document_ids": ["kickoff_notes_v1"],
+    "expected_answer_facts": ["not decided", "rule-based", "statistical clustering"],
+    "should_refuse": false
+  },
+  {
+    "id": "unknown_01",
+    "question": "What is ConnectTel's 2026 annual revenue?",
+    "category": "unanswerable",
+    "expected_document_ids": [],
+    "expected_answer_facts": [],
+    "should_refuse": true
+  },
+  {
+    "id": "unknown_02",
+    "question": "What exact additional budget has Maya approved for Spain?",
+    "category": "unanswerable",
+    "expected_document_ids": ["client_email_002"],
+    "expected_answer_facts": [],
+    "should_refuse": true
+  }
+]
+

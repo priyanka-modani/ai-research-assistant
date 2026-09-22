@@ -1,0 +1,147 @@
+[
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "client_brief_v1",
+    "document_title": "ConnectTel Customer Experience and Churn Study - Client Brief",
+    "artifact_type": "client_brief",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/01_client_brief.md",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["objectives", "scope", "deliverables", "timeline"],
+    "date": "2026-08-03"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "proposal_v1",
+    "document_title": "ConnectTel Research Proposal and Statement of Work",
+    "artifact_type": "proposal",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/02_proposal_sow.md",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["methodology", "sample", "deliverables", "assumptions"],
+    "date": "2026-08-07"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "kickoff_notes_v1",
+    "document_title": "ConnectTel Project Kickoff Notes",
+    "artifact_type": "meeting_notes",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/03_kickoff_notes.md",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["decisions", "owners", "open_questions", "approvals"],
+    "date": "2026-08-10"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "client_email_001",
+    "document_title": "Client Email - Segment Definitions",
+    "artifact_type": "client_email",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/04_client_email_segment_definitions.json",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["segments", "clarification"],
+    "date": "2026-08-12"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "client_email_002",
+    "document_title": "Client Email - Request to Add Spain",
+    "artifact_type": "client_email",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/05_client_email_add_spain.json",
+    "market": ["Spain"],
+    "topic": ["scope_change", "approval"],
+    "date": "2026-08-18"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "questionnaire_v2",
+    "document_title": "ConnectTel Customer Survey Questionnaire",
+    "artifact_type": "questionnaire",
+    "version": 2,
+    "study_type": "current_project",
+    "source_path": "current_project/06_questionnaire_v2.md",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["survey", "questionnaire", "churn", "customer_experience"],
+    "date": "2026-08-17"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "sample_plan_v1",
+    "document_title": "ConnectTel Quantitative Sample Plan",
+    "artifact_type": "sample_plan",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/07_sample_plan_v1.csv",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["sample", "quota", "markets"],
+    "date": "2026-08-14"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "timeline_v1",
+    "document_title": "ConnectTel Project Timeline",
+    "artifact_type": "timeline",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/08_timeline_v1.csv",
+    "market": ["Germany", "France", "UK"],
+    "topic": ["schedule", "milestones", "dependencies"],
+    "date": "2026-08-10"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "status_update_001",
+    "document_title": "ConnectTel Weekly Status Update - Week 2",
+    "artifact_type": "status_update",
+    "version": 1,
+    "study_type": "current_project",
+    "source_path": "current_project/09_weekly_status.md",
+    "market": ["Germany", "France", "UK", "Spain"],
+    "topic": ["status", "risks", "decisions", "next_steps"],
+    "date": "2026-08-19"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "historical_churn_2025",
+    "document_title": "2025 Mobile Customer Churn Study - Research Summary",
+    "artifact_type": "historical_report",
+    "version": 1,
+    "study_type": "historical",
+    "source_path": "historical_studies/10_2025_mobile_churn_summary.md",
+    "market": ["Germany", "France"],
+    "topic": ["churn", "billing_transparency", "support"],
+    "date": "2025-11-21"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "historical_questionnaire_2025",
+    "document_title": "2025 Mobile Churn Questionnaire - Billing Module",
+    "artifact_type": "historical_questionnaire",
+    "version": 1,
+    "study_type": "historical",
+    "source_path": "historical_studies/11_2025_billing_questions.md",
+    "market": ["Germany", "France"],
+    "topic": ["billing_transparency", "questionnaire", "reuse"],
+    "date": "2025-07-02"
+  },
+  {
+    "project_id": "connecttel_cx_2026",
+    "document_id": "historical_5g_2024",
+    "document_title": "2024 5G Adoption and Network Experience Study",
+    "artifact_type": "historical_report",
+    "version": 1,
+    "study_type": "historical",
+    "source_path": "historical_studies/12_2024_5g_experience_summary.md",
+    "market": ["UK", "France"],
+    "topic": ["5g", "network_quality", "adoption"],
+    "date": "2024-10-15"
+  }
+]
+

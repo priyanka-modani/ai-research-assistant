@@ -1,0 +1,10 @@
+task_id,task,owner,start_date,end_date,depends_on,status
+T01,Research plan and questionnaire draft,Research team,2026-08-10,2026-09-30,,In progress
+M01,Client questionnaire approval,ConnectTel Maya Chen,2026-10-05,2026-10-05,T01,Not started
+T02,Survey programming,Programming team,2026-10-06,2026-10-08,M01,Not started
+T03,Testing and client sign-off,Research and ConnectTel,2026-10-09,2026-10-10,T02,Not started
+T04,Quantitative fieldwork,Fieldwork team,2026-10-11,2026-10-20,T03,Not started
+T05,Data cleaning and analysis,Analytics team,2026-10-21,2026-10-27,T04,Not started
+T06,Reporting,Research team,2026-10-28,2026-11-03,T05,Not started
+M02,Final executive presentation,Research director,2026-10-20,2026-10-20,T06,Committed
+

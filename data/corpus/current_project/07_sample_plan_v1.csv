@@ -1,0 +1,9 @@
+market,audience,target_completes,qual_interviews,status
+Germany,Current customers,350,3,Feasible
+Germany,Recent churners,150,2,Feasibility review
+France,Current customers,350,3,Feasible
+France,Recent churners,150,2,Feasibility review
+United Kingdom,Current customers,350,3,Feasible
+United Kingdom,Recent churners,150,2,Feasible
+TOTAL,All approved audiences,1500,15,Baseline plan
+

@@ -1,0 +1,8 @@
+{
+  "email_id": "client_email_002",
+  "sent_at": "2026-08-18T16:42:00+02:00",
+  "from": "leon.weber@connecttel.example",
+  "to": ["sofia.martin@researchpartner.example", "maya.chen@connecttel.example"],
+  "subject": "Could we add Spain to the churn study?",
+  "body": "Hi Sofia, our Spanish business team heard about the study and would like to be included. Could you add Spain with approximately 300 completes and three qualitative interviews while keeping the October 20 final presentation date? Please tell us the cost, Spanish translation, fieldwork feasibility, and timing impact before making any change. Maya, can you confirm whether budget is available? For now this is a request for assessment, not approval to launch Spain. Regards, Leon"
+}

@@ -1,0 +1,9 @@
+{
+  "email_id": "client_email_001",
+  "sent_at": "2026-08-12T09:20:00+02:00",
+  "from": "maya.chen@connecttel.example",
+  "to": ["sofia.martin@researchpartner.example"],
+  "subject": "Confirmed churner and tenure definitions",
+  "body": "Hi Sofia, confirming our discussion: recent churners are consumers who left ConnectTel within the previous six months. For current customers, we can provide tenure bands of under 12 months, 12-35 months, 36-59 months, and 60 months or more. Please use those bands in the sample-monitoring and analysis plan. This is a clarification within the existing scope; it does not change the total sample or markets. Thanks, Maya"
+}
+
